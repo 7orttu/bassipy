@@ -35,7 +35,7 @@ ydl_options = {
 }
 
 # PLAY COMMAND
-# | Plays any video(audio, ideal for music) from Youtube in a Discord Voice Channel
+# | Plays any audio from Youtube in a Discord Voice Channel
 @bot.command()
 async def play(ctx, url: str):
     # Indicate that this function should use global variables for is_playing and vc_conn
